@@ -1,8 +1,14 @@
+import { Outlet } from "react-router-dom"
+import Footer from "./components/Footer"
+import Header from "./components/Header"
+
 function App() {
 
   return (
-    <div className="App">
-      <h1 className="text-4xl font-bold">Hello</h1>
+    <div className="App max-w-[1600px] mx-auto">
+      <Header></Header>
+      <Outlet></Outlet>
+      <Footer></Footer>
     </div>
   )
 }
