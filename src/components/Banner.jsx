@@ -11,7 +11,7 @@ const Banner = () => {
               Dream Job
             </span>
           </h1>
-          <p className="text-lg font-medium text-gray-500 leading-relaxed mb-6">
+          <p className="text-lg text-gray-500 leading-relaxed mb-6">
             Explore thousands of job opportunities with all the information you
             need. Its your future. Come find it. Manage all your job application
             from start to finish.
