@@ -5,7 +5,7 @@ import Header from "./components/Header"
 function App() {
 
   return (
-    <div className="App max-w-[1600px] mx-auto">
+    <div className="App">
       <Header></Header>
       <Outlet></Outlet>
       <Footer></Footer>
