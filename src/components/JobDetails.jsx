@@ -6,7 +6,7 @@ const JobDetails = () => {
   const { id } = useParams();
   const data = useLoaderData();
   
-  const detailData = data.find(detail => detail.id === parseInt(id))
+  const detailData = data.find((detail, i) => detail.id === parseInt(id))
   
   return (
     <div>
@@ -17,7 +17,7 @@ const JobDetails = () => {
           </h1>
         </div>
       </div>
-      <Details jobDetail={detailData}></Details>
+      <Details key={detailData.i} jobDetail={detailData}></Details>
     </div>
   );
 };
