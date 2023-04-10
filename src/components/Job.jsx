@@ -1,9 +1,11 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot, faDollarSign } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const Job = ({ job }) => {
   const {
+    id,
     company_logo,
     job_title,
     company_name,
@@ -34,7 +36,11 @@ const Job = ({ job }) => {
           {salary}
         </p>
       </div>
-      <button className="px-5 py-3 bg-gradient-to-r from-sky-500 to-blue-600 text-white font-medium rounded-md hover:from-sky-400 hover:to-blue-500">View Details</button>
+      <Link to={`/details/${id}`}>
+        <button className="px-5 py-3 bg-gradient-to-r from-sky-500 to-blue-600 text-white font-medium rounded-md hover:from-sky-400 hover:to-blue-500">
+          View Details
+        </button>
+      </Link>
     </div>
   );
 };

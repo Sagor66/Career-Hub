@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "job_title": "Software Engineer",
     "company_name": "Google LLC",
     "company_logo": "https://i.ibb.co/bR51Pwy/google-1-1-1-1.png",
@@ -30,6 +31,7 @@
     }
   },
   {
+    "id": 2,
     "job_title": "Data Scientist",
     "company_name": "Netflix",
     "company_logo": "https://i.ibb.co/VT6qcxw/netflix-4-1.png",
@@ -59,6 +61,7 @@
     }
   },
   {
+    "id": 3,
     "job_title": "Web Developer",
     "company_name": "Amazon",
     "company_logo": "https://i.ibb.co/1ZyYnw7/amazon-logo-transparent.png",
@@ -89,6 +92,7 @@
     }
   },
   {
+    "id": 4,
     "job_title": "UX Designer",
     "company_name": "Netflix",
     "company_logo": "https://i.ibb.co/VT6qcxw/netflix-4-1.png",
@@ -118,6 +122,7 @@
     }
   },
   {
+    "id": 5,
     "job_title": "DevOps Engineer",
     "company_name": "Microsoft",
     "company_logo": "https://i.ibb.co/kg6Z1D3/Microsoft-logo-2012-svg.png",
@@ -147,6 +152,7 @@
     }
   },
   {
+    "id": 6,
     "job_title": "Data Scientist",
     "company_name": "Google",
     "company_logo": "https://i.ibb.co/bR51Pwy/google-1-1-1-1.png",
@@ -176,6 +182,7 @@
     }
   },
   {
+    "id": 7,
     "job_title": "Front-End Developer",
     "company_name": "Netflix",
     "company_logo": "https://i.ibb.co/VT6qcxw/netflix-4-1.png",
@@ -205,6 +212,7 @@
     }
   },
   {
+    "id": 8,
     "job_title": "Cybersecurity Engineer",
     "company_name": "Tesla",
     "company_logo": "https://i.ibb.co/Sxw96cP/tesla-9-1.png",
