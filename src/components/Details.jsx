@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faDollar,
@@ -7,6 +7,7 @@ import {
   faLocationDot,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import { addToDb, getShoppingCart } from "../utilities/fakeDB";
 
 const Details = ({ jobDetail }) => {
   const {
@@ -22,16 +23,46 @@ const Details = ({ jobDetail }) => {
     required_skills,
     preferred_skills,
     how_to_apply,
+    jobResponsibilities,
   } = jobDetail;
+
+
+  const [cart, setCart] = useState([]);
+
+  const handleApply = (jobDetail) => {
+    let newCart = []
+    const exists = cart.find(pd => pd.id === jobDetail.id)
+    
+    if (!exists) {
+      newCart = [...cart, jobDetail]
+
+    } else {
+      const remaining = cart.filter(pd => pd.id !== jobDetail.id);
+      newCart = [...remaining, exists];
+      
+    }
+    setCart(newCart);
+    addToDb(jobDetail.id);
+  };
 
   return (
     <div className="max-w-[1600px] mx-auto mt-32">
       <div className="flex justify-center gap-10">
         <div className="max-w-4xl text-gray-500">
-          <img className="max-w-[270px] mx-auto mb-10" src={company_logo} alt="" />
+          <img
+            className="max-w-[270px] mx-auto mb-10"
+            src={company_logo}
+            alt=""
+          />
           <p className="mb-6">
             <span className="font-bold text-gray-800">Job Description: </span>
             {job_description}
+          </p>
+          <p className="mb-6">
+            <span className="font-bold text-gray-800">
+              Job Responsibilities:{" "}
+            </span>
+            {jobResponsibilities}
           </p>
           <div className="flex gap-20 mb-6">
             <h6>
@@ -106,7 +137,10 @@ const Details = ({ jobDetail }) => {
               {contact_info.address}
             </p>
           </div>
-          <button className="w-full px-5 py-3 bg-gradient-to-r from-sky-500 to-blue-600 text-white font-medium rounded-md hover:from-sky-400 hover:to-blue-500">
+          <button
+            onClick={() => handleApply(jobDetail)}
+            className="w-full px-5 py-3 bg-gradient-to-r from-sky-500 to-blue-600 text-white font-medium rounded-md hover:from-sky-400 hover:to-blue-500"
+          >
             Apply Now
           </button>
         </div>

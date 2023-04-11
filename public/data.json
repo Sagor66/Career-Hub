@@ -8,6 +8,7 @@
     "job_type": ["Remote", "Full-time"],
     "salary": "120,000 - 150,000",
     "job_description": "Acme Corporation is seeking a talented software engineer to join our team. The ideal candidate will have experience in developing software applications using modern web technologies such as React, Node.js, and AWS. You will be responsible for designing and developing new features, troubleshooting issues, and ensuring the quality of our software applications. This is a full-time position with competitive salary and benefits.",
+    "jobResponsibilities": "As a software engineer, your responsibilities may include developing, testing, and maintaining software applications, collaborating with other team members to design and implement software solutions, writing clean and efficient code using programming languages such as Java, Python, C++, etc., debugging and troubleshooting issues in software applications, and staying up-to-date with emerging trends and technologies in the field of software engineering.",
     "required_experience": "5+ years of experience in software engineering",
     "required_skills": [
       "React",
@@ -39,6 +40,7 @@
     "job_type": ["Onsite", "Full-time"],
     "salary": "100,000 - 150,000",
     "job_description": "XYZ Corp is seeking a Data Scientist to join our growing team. The ideal candidate will have experience in statistical modeling, machine learning, and data analysis. You will be responsible for designing and implementing predictive models to inform business decisions, as well as communicating insights to stakeholders. This is a full-time position with competitive salary and benefits.",
+    "jobResponsibilities": "As a data scientist, your responsibilities may include designing and implementing algorithms and models for data analysis, performing statistical analysis and hypothesis testing, developing predictive models and machine learning algorithms, extracting insights and actionable recommendations from large and complex datasets, collaborating with cross-functional teams to solve business problems, communicating insights and findings to non-technical stakeholders, staying up-to-date with emerging trends and technologies in the field of data science, and adhering to ethical and legal standards for data collection, analysis, and storage.",
     "required_experience": "3+ years of experience in data science or related field",
     "required_skills": [
       "Python",
@@ -69,6 +71,7 @@
     "job_type": ["Remote", "Full-time"],
     "salary": "80,000 - 100,000",
     "job_description": "ABC Company is seeking a Web Developer to join our team. The ideal candidate will have experience in front-end development, responsive design, and web performance optimization. You will be responsible for building and maintaining web applications, as well as ensuring cross-browser compatibility and accessibility. This is a full-time position with competitive salary and benefits.",
+    "jobResponsibilities": "As a web developer, your responsibilities may include designing and developing websites and web applications, writing clean and efficient code using programming languages such as HTML, CSS, and JavaScript, collaborating with designers to create visually appealing and user-friendly interfaces, optimizing web pages for speed and performance, debugging and troubleshooting issues in web applications, staying up-to-date with emerging trends and technologies in the field of web development, and adhering to web development best practices and standards.",
     "required_experience": "2+ years of experience in web development or related field",
     "required_skills": [
       "JavaScript",
@@ -100,6 +103,7 @@
     "job_type": ["Onsite", "Full-time"],
     "salary": "80,000 - 100,000",
     "job_description": "GHI Corporation is seeking a UX Designer to join our team. The ideal candidate will have experience in user research, prototyping, and designing intuitive user interfaces. You will be responsible for designing and improving our company's digital products, as well as collaborating with cross-functional teams to understand user needs. This is a full-time position with competitive salary and benefits.",
+    "jobResponsibilities": "As a UX designer, your responsibilities may include conducting user research to understand user needs and behaviors, creating user personas, user journey maps, and wireframes to design intuitive and user-friendly interfaces, collaborating with cross-functional teams to develop and iterate on design concepts, conducting usability testing to validate design decisions, staying up-to-date with emerging trends and technologies in the field of UX design, and adhering to ethical and legal standards for user data collection and privacy.",
     "required_experience": "3+ years of experience in UX design or related field",
     "required_skills": [
       "User Research",
@@ -130,6 +134,7 @@
     "job_type": ["Remote", "Full-time"],
     "salary": "110,000 - 140,000",
     "job_description": "JKL Technologies is seeking a DevOps Engineer to join our team. The ideal candidate will have experience in automation, cloud infrastructure, and containerization. You will be responsible for developing and maintaining our company's software delivery pipelines, as well as managing our cloud infrastructure and containers. This is a full-time position with competitive salary and benefits.",
+    "jobResponsibilities": "As a DevOps engineer, your responsibilities may include developing and implementing automation tools and frameworks to optimize software delivery, collaborating with software developers to integrate and deploy code releases, managing and monitoring infrastructure to ensure uptime and availability, configuring and managing continuous integration and deployment pipelines, implementing and maintaining security policies and procedures, and staying up-to-date with emerging trends and technologies in the field of DevOps.",
     "required_experience": "5+ years of experience in DevOps or related field",
     "required_skills": [
       "AWS",
@@ -160,6 +165,7 @@
     "job_type": ["Onsite", "Full-time"],
     "salary": "120,000 - 150,000",
     "job_description": "PQR Analytics is seeking a Data Scientist to join our team. The ideal candidate will have experience in statistical modeling, machine learning, and data visualization. You will be responsible for analyzing large datasets, developing predictive models, and communicating insights to stakeholders. This is a full-time position with competitive salary and benefits.",
+    "jobResponsibilities": "As a data scientist, your responsibilities may include designing and implementing algorithms and models for data analysis, performing statistical analysis and hypothesis testing, developing predictive models and machine learning algorithms, extracting insights and actionable recommendations from large and complex datasets, collaborating with cross-functional teams to solve business problems, communicating insights and findings to non-technical stakeholders, staying up-to-date with emerging trends and technologies in the field of data science, and adhering to ethical and legal standards for data collection, analysis, and storage.",
     "required_experience": "3+ years of experience in data science or related field",
     "required_skills": [
       "Python",
@@ -190,6 +196,7 @@
     "job_type": ["Remote", "Full-time"],
     "salary": "90,000 - 120,000",
     "job_description": "XYZ Web Solutions is seeking a Front-End Developer to join our team. The ideal candidate will have experience in HTML, CSS, JavaScript, and front-end frameworks such as React or Angular. You will be responsible for developing and maintaining our company's web applications, as well as collaborating with back-end developers to integrate APIs. This is a full-time position with competitive salary and benefits.",
+    "jobResponsibilities": "As a front-end developer, your responsibilities may include developing and implementing user interfaces for web and mobile applications, writing clean and efficient code using programming languages such as HTML, CSS, and JavaScript, collaborating with designers to create visually appealing and user-friendly interfaces, optimizing web pages for speed and performance, debugging and troubleshooting issues in web applications, staying up-to-date with emerging trends and technologies in the field of front-end development, and adhering to web development best practices and standards.",
     "required_experience": "3+ years of experience in front-end development or related field",
     "required_skills": [
       "HTML",
@@ -220,6 +227,7 @@
     "job_type": ["Onsite", "Full-time"],
     "salary": "120,000 - 150,000",
     "job_description": "ABC Corporation is seeking a Cybersecurity Engineer to join our team. The ideal candidate will have experience in network security, penetration testing, and security operations. You will be responsible for designing and implementing security solutions to protect our company's systems and data. This is a full-time position with competitive salary and benefits.",
+    "jobResponsibilities": "As a cybersecurity engineer, your responsibilities may include developing and implementing security policies and procedures, identifying and mitigating security risks and vulnerabilities, managing and monitoring security infrastructure to ensure uptime and availability, conducting security assessments and penetration testing, responding to security incidents and breaches, staying up-to-date with emerging threats and technologies in the field of cybersecurity, and collaborating with cross-functional teams to implement security best practices and standards.",
     "required_experience": "5+ years of experience in cybersecurity or related field",
     "required_skills": [
       "Network Security",
