@@ -8,10 +8,10 @@ import {
 
 const Footer = () => {
   return (
-    <div className="bg-gray-900 text-white py-24 mt-32">
+    <div className="bg-gray-900 text-white py-24 px-10 mt-32">
       <div className="max-w-[1600px] mx-auto">
-        <div className="grid grid-cols-6 gap-10 border-b-2 pb-16 mb-8 border-gray-600">
-          <div className="col-span-2">
+        <div className="grid grid-cols-1 md:grid-cols-6 gap-10 border-b-2 pb-16 mb-8 border-gray-600">
+          <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold mb-4 text-white">Job-Search</h3>
             <p className="text-gray-400 mb-4">
               There are many variations of passages of Lorem Ipsum , but the

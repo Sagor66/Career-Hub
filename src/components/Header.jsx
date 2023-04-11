@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="bg-sky-50">
-      <nav className="flex justify-between items-center pt-7 max-w-[1600px] mx-auto">
+      <nav className="flex flex-col md:flex-row justify-between items-center gap-10 pt-7 max-w-[1600px] mx-auto">
         <Link to="/">
           <h3 className="text-3xl font-bold text-gray-800">
             <FontAwesomeIcon

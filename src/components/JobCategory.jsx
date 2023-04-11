@@ -12,7 +12,7 @@ const JobCategory = () => {
           need. Its your future
         </p>
       </div>
-      <div className="grid grid-cols-4 justify-between items-center">
+      <div className="grid grid-cols-1 md:grid-cols-4 justify-center md:justify-between items-center gap-10 ml-12 md:ml-0">
         <div className="max-w-xs bg-gradient-to-r from-sky-50 to-blue-100 px-16 py-12 rounded-md">
           <FontAwesomeIcon className="fa-2x text-blue-500 bg-blue-100 px-5 py-3 rounded-md mb-6" icon={faCalculator} />
           <h4 className="text-xl font-bold text-gray-800 mb-2">Account & Finance</h4>

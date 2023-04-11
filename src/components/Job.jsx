@@ -14,7 +14,7 @@ const Job = ({ job }) => {
     contact_info,
   } = job;
   return (
-    <div className="max-w-3xl border-2 border-sky-100 px-10 py-6 rounded-md mx-a">
+    <div className="max-w-sm md:max-w-3xl border-2 border-sky-100 px-10 py-6 rounded-md mx-auto">
       <img className="max-w-[270px] mb-6" src={company_logo} alt="" />
       <h3 className="text-2xl font-bold text-gray-800 mb-2">{job_title}</h3>
       <p className="text-gray-500 mb-4">{company_name}</p>

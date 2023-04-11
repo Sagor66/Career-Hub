@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div className="bg-gradient-to-b from-sky-50 to-blue-100">
-      <div className="max-w-[1600px] mx-auto flex justify-between items-center pt-16">
+      <div className="max-w-[1600px] mx-auto flex flex-col md:flex-row justify-between items-center px-10 md:px-0 pt-16 gap-10">
         <div className="max-w-lg">
           <h1 className="text-7xl font-bold text-gray-800 mb-6 leading-tight">
             One Step Closer To Your{" "}
@@ -21,7 +21,7 @@ const Banner = () => {
           </button>
         </div>
         <div>
-          <img className="max-w-3xl" src="./person.png" alt="" />
+          <img className="max-w-md md:max-w-3xl" src="./person.png" alt="" />
         </div>
       </div>
     </div>
